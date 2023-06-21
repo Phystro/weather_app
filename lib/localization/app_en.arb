@@ -1,0 +1,12 @@
+{
+    "weather": "Weather",
+    "@weather": {
+        "description": "The Title 'Weather'"
+    },
+
+    "cityPrompt": "Enter city name",
+    "sthWrong": "Somthing went wrong!",
+    "temperature": "Temperature",
+    "pressure": "Pressure",
+    "humidity": "Humidity"
+}

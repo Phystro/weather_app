@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../domain/entities/weather.dart';
+import '../../../domain/entities/weather.dart';
 
 abstract class WeatherState extends Equatable {
   const WeatherState();
