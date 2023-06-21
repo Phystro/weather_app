@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/constants.dart';
+import '../../data/conversion.dart';
 import '../bloc/weather_bloc.dart';
 import '../bloc/weather_event.dart';
 import '../bloc/weather_state.dart';
@@ -93,7 +94,8 @@ class WeatherPage extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                state.result.temperature.toString(),
+                                // state.result.temperature.toString(),
+                                Conversion.ktoc(state.result.temperature).toStringAsFixed(2),
                                 style: TextStyle(
                                   fontSize: 16.0,
                                   letterSpacing: 1.2,

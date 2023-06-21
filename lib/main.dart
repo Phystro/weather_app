@@ -26,7 +26,9 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: "Flutter Weather App Demo",
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
+          useMaterial3: true,
           primarySwatch: Colors.orange,
         ),
         home: const WeatherPage(),

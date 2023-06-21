@@ -1,5 +1,7 @@
 # weather_app
 
+Followed tutorial by Aditya Rohman @github.com:codestronaut
+
 A new Flutter project.
 
 ## Getting Started
