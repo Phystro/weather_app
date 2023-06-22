@@ -2,6 +2,8 @@
 
 Followed tutorial by Aditya Rohman @github.com:codestronaut
 
+Localization: https://aditya-rohman.medium.com/how-to-provide-localizations-feature-to-a-flutter-app-with-bloc-library-shared-preferences-2c2f4fc2fb8a
+
 A new Flutter project.
 
 ## Getting Started
